@@ -11,6 +11,13 @@ if (leadsFromLocalStorage) {
     renderLeads()
 }
 
+deleteBtn.addEventListener("dbclick", function () {
+    console.log("double clicked!")
+    localStorage.clear()
+    myLeads = []
+    renderLeads()
+})
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
