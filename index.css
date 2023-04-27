@@ -9,20 +9,26 @@ input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #59BFD1;
+    border: 1px solid #7C4CEF;
     margin-bottom: 4px;
 }
 
 button {
-    background: #59BFD1;
+    background: #7C4CEF;
     color: white;
     padding: 10px 20px;
-    border: 1px solid #59BFD1;
+    border: 1px solid #7C4CEF;
     font-weight: bold;
 }
 #delete-btn {
     background-color: white;
-    color: #59BFD1;
+    color: #7C4CEF;
+}
+.delete-btn:hover {
+    border: 2px solid #7C4CEF;
+}
+button:hover {
+    border: 2px solid #7C4CEF;
 }
 
 ul {
